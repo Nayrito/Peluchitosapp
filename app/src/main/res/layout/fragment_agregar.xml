@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".AgregarFragment"
+        android:padding="15dp"
+        android:orientation="vertical">
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="@string/id"
+            android:ems="10"
+            android:textSize="25sp"
+            android:id="@+id/etId"/>
+
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="@string/nombre"
+            android:ems="10"
+            android:textSize="25sp"
+            android:id="@+id/etNombre"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="@string/cantidad"
+            android:ems="10"
+            android:textSize="25sp"
+            android:id="@+id/etCantidad"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="@string/precio"
+            android:ems="10"
+            android:textSize="25sp"
+            android:id="@+id/etPrecio"/>
+    <Button
+            android:layout_width="213dp"
+            android:layout_height="wrap_content"
+            android:text="@string/agregar"
+            android:layout_marginTop="20dp"
+            android:textAllCaps="false"
+            android:background="@drawable/app_button_background"
+            android:layout_gravity="center"
+            android:id="@+id/btAgregar"/>
+</LinearLayout>

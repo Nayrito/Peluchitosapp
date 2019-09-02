@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp"
+        tools:context=".BuscarFragment">
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:hint="@string/nombre"
+            android:id="@+id/etNombre"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="87dp"
+            android:textSize="18sp"
+            android:id="@+id/tvMostrar"/>
+    <Button
+            android:layout_width="197dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/buscar"
+            android:textAllCaps="false"
+            android:background="@drawable/app_button_background"
+            android:layout_gravity="center"
+            android:id="@+id/btBuscar"/>
+</LinearLayout>
